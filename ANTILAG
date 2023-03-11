@@ -28,7 +28,7 @@ if not _G.Settings then
             ["FPS Cap"] = 240, -- Set this true to uncap FPS
             ["No Particles"] = true,
             ["No Camera Effects"] = true,
-            ["No Explosions"] = true, -- Not recommended for PVP games
+            ["No Explosions"] = false, -- Not recommended for PVP games
             ["No Clothes"] = true,
             ["Low Water Graphics"] = true,
             ["No Shadows"] = true,
@@ -183,7 +183,7 @@ coroutine.wrap(pcall)(function()
         Lighting.FogEnd = 9e9
         sethiddenproperty(Lighting, "Technology", 2)
         StarterGui:SetCore("SendNotification", {
-            Title = "discord.gg/rips",
+            Title = "discord.gg/BrMKwRpj",
             Text = "No Shadows Enabled",
             Duration = 5,
             Button1 = "Okay"
